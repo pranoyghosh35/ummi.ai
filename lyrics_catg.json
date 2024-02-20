@@ -1,0 +1,89 @@
+{
+  "lullabies": [
+    {
+      "file": "Amazing Grace.txt",
+      "link": "https://www.youtube.com/watch?v=7U4bE2CWTRs",
+      "Type": "Traditional",
+      "Mood": "Soothing",
+      "Audience": "All ages"
+    },
+    {
+      "file": "Nighttime Blessing.txt",
+      "link": "https://www.youtube.com/watch?v=IKBypZB81jk",
+      "Type": "Religious",
+      "Mood": "Calming",
+      "Audience": "All ages"
+    },
+    {
+      "file": "Are You Sleeping.txt",
+      "link": "https://www.youtube.com/watch?v=yzzpwUIFmRQ",
+      "Type": "Traditional",
+      "Mood": "Calming",
+      "Audience": "Infant"
+    },
+    {
+      "file": "Rock-a-bye, baby.txt",
+      "link": "https://www.youtube.com/watch?v=MRAiBXlqHwM",
+      "Type": "Traditional",
+      "Mood": "Melancholic",
+      "Audience": "Infant"
+    },
+    {
+      "file": "Brahm's lullaby.txt",
+      "link": "https://www.youtube.com/watch?v=ksi1cjYFoBs",
+      "Type": "Classic",
+      "Mood": "Dreamy",
+      "Audience": "All ages"
+    },
+    {
+      "file": "Toora Loora Loora.txt",
+      "link": "https://www.youtube.com/watch?v=A8kNIlwuDgE",
+      "Type": "Folk",
+      "Mood": "Dreamy",
+      "Audience": "All ages"
+    },
+    {
+      "file": "Go to Sleep My Little Baby.txt",
+      "link": "https://www.youtube.com/watch?v=oOg1N2r9pTU",
+      "Type": "Traditional",
+      "Mood": "Soothing",
+      "Audience": "Infant"
+    },
+    {
+      "file": "Twinkle, twinkle, little star.txt",
+      "link": "https://www.youtube.com/watch?v=-JRJibhgwUQ",
+      "Type": "Classic",
+      "Mood": "Dreamy",
+      "Audience": "Infant"
+    },
+    {
+      "file": "Hush Little Baby.txt",
+      "link": "https://www.youtube.com/watch?v=6cxJUwi9B_s",
+      "Type": "Traditional",
+      "Mood": "Calming",
+      "Audience": "All ages"
+    },
+    {
+      "file": "When you wish upon a star.txt",
+      "link": "https://www.youtube.com/watch?v=cti8308y4VY",
+      "Type": "Classic",
+      "Mood": "Dreamy",
+      "Audience": "All ages"
+    },
+    {
+      "file": "KUMBAYA.txt",
+      "link": "https://www.youtube.com/watch?v=2HhkCE2-50E",
+      "Type": "Folk",
+      "Mood": "Soothing",
+      "Audience": "All ages"
+    },
+    {
+      "file": "You are my sunshine.txt",
+      "link": "https://www.youtube.com/watch?v=dh7LJDHFaqA",
+      "Type": "Classic",
+      "Mood": "Melancholic",
+      "Audience": "All ages"
+    }
+  ]
+}
+
