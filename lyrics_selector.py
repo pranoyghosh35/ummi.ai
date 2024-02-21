@@ -76,7 +76,8 @@ def display_lyrics_and_player(folder_path, selected_file, lullabies_data):
             #st.error(f"\nError: File '{selected_file}' not found.")
 
 def main():
-    st.title("Lullaby Anytime!")
+    st.image("Lullaby_Anytime1.png", width=200)
+    # st.title("Lullaby Anytime!")
 
     folder_path = 'lyrics'  # Change this to the actual path of your 'lyrics' folder
 
@@ -92,7 +93,7 @@ def main():
     with open(json_file_path, 'r') as json_file:
         lullabies_data = json.load(json_file)
 
-    st.write("Help us recommend you:")
+    st.write("Select by category")
 
         # Extracting available tags for Type, Mood, and Audience
     available_tags = {
@@ -117,7 +118,7 @@ def main():
         col_title, col_tags = st.columns([1, 4])  # Adjust width ratios as needed
 
         # Display the category title
-        col_title.write(f"### {category}?")
+        col_title.write(f"### {category}")
 
         # Display the tags in the respective column
         selected_tags[category] = col_tags.radio("s", options=tags, label_visibility='hidden')
@@ -126,7 +127,7 @@ def main():
     apply_button = st.button("Apply")
     if apply_button:
         match = recommend_filename(selected_tags, lullabies_data["lullabies"])
-        st.write(f"### Hurray Match! '{match[:-4]}'")
+        st.write(f"### Found A Match! '{match[:-4]}'")
         if match:
             display_lyrics_and_player(folder_path, match, lullabies_data)            
         else:
@@ -134,7 +135,7 @@ def main():
 
     st.write("### OR")
 
-    selected_file_index = st.selectbox("Pick anyone:", range(len(files)), format_func=lambda i: file_names_without_extension[i])
+    selected_file_index = st.selectbox("Choose From Classics", range(len(files)), format_func=lambda i: file_names_without_extension[i])
     search_button = st.button("Search",key="2")
     #wait for usr to select and click search button
     if search_button:

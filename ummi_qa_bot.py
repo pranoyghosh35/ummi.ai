@@ -98,8 +98,8 @@ def ask(query, qa, chat_history=None):
     return result["result"]
 
 def main():
-    st.image("MaQuery.jpeg", width=300)
-    st.title("I am Ummi. How can I help today?")
+    st.image("MaQuery1.png", width=300)
+    st.title("Hi! I am Ummi. How can I help you?")
     chat_history = []  # Initialize chat history
     qa=ask_setup()
     # Input box for user query
