@@ -59,7 +59,8 @@ def run_option_2():
     # Add more content specific to Option 2
 
 def run_option_3():
-    st.title("Bedtime story")
+    st.title("Bedtime story")  
+    subprocess.Popen(["streamlit", "run", "generate_story.py"])
     st.write("")
     # Add more content specific to Option 3
 
